@@ -314,6 +314,7 @@ Even if this approach requires more work in the long run, it is used often in or
     }
     .top-navigation .links li {
         font-size: 0.7rem;
+        margin-left: 0.2rem;
     }
     .introduction {
         height: 25rem;
@@ -323,22 +324,39 @@ Even if this approach requires more work in the long run, it is used often in or
         font-size: 2.125rem;
     }
     .introduction h3 {
-        padding: 1rem;
+        padding: 2rem 0 2rem;
     }
     button {
         padding: .5rem 1rem;
+        width: 8.2rem;
     }
     .cases h2 {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
         margin: -4.375rem 0 3.125rem;
     }
     .cases .devices li {
         width: 99%;
         float: none;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.0rem;
+    }
+    .cases .devices li img {
+        width: 100px;
+        height: 100px;
     }
     .cases .devices h3 {
-        font-size: 1.25rem;
+        font-size: 1.0rem;
+    }
+    .cases {
+        padding-bottom: 1.5rem;
+    }
+    .social {
+        padding-bottom: 1.375rem;
+    }
+    .social h5 {
+        font-size: 90%;
+    }
+    .social .copy {
+        font-size: 0.7rem;
     }
 }
 
